@@ -1,6 +1,5 @@
 def join_nested_strings(src)
-  if src[a] = ""
-    src
+  nested_string = src.join {|a| a.Strings}
 
   end
   # src will be an Array of Arrays of Strings and Integers
