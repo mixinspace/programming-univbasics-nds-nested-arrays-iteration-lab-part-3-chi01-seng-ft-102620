@@ -1,5 +1,6 @@
 def join_nested_strings(src)
   a.select {|a| a.is_a?(String)}
+end
 
   data.join(" ")
 end
