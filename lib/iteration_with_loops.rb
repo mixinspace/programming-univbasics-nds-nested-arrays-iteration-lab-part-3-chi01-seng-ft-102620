@@ -1,5 +1,5 @@
 def join_nested_strings(src)
-  if src.index == ""
+  if src.index == [""]
      src
 
 
