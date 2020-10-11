@@ -1,7 +1,7 @@
 def join_nested_strings(src)
-  while src = "" do
+  while src[] = "" do
     src.join
-    src
+
 
 
   end
