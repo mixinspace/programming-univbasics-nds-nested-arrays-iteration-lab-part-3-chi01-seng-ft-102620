@@ -1,5 +1,6 @@
 def join_nested_strings(src)
-  src.map{|e, a| [e, a.join (" ")]}
+  if src.index == ""
+    puts src
 
 
   end
