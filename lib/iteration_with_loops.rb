@@ -1,10 +1,5 @@
 def join_nested_strings(src)
-  while src[] = "" do
-    src.join
-
-
-
-  end
+  src.map{|e, a| [e, a.join(" ")]}
 
 
   end
