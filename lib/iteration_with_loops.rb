@@ -9,5 +9,5 @@ end
   # Combine all Strings present in the AoA into a single value and return it
  data = src.map do |a|
    a.select {|a| a.is_a?(String)}
-   join(" ")
-   data
+
+   data.join(" ")
