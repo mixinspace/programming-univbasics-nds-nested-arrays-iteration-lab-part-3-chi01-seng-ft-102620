@@ -1,6 +1,6 @@
 def join_nested_strings(src)
-  if src = Strings
-    join_nested_strings
+  if src.map { |e|  } = Strings
+    src
   end
 
 
