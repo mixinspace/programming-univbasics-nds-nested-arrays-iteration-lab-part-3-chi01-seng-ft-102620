@@ -1,6 +1,6 @@
 def join_nested_strings(src)
   if src.index == ""
-    puts src
+     src
 
 
   end
