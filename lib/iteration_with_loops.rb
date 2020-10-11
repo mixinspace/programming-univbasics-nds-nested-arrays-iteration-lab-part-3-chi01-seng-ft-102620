@@ -2,10 +2,11 @@ def join_nested_strings(src)
   if src.map { |e|  } == ""
     nested_strings = []
     nested_strings << src.join
+    nested_strings
+
 
   end
 
-nested_strings
 
   end
   # src will be an Array of Arrays of Strings and Integers
