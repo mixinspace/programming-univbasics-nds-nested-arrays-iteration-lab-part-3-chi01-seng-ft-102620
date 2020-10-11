@@ -1,6 +1,7 @@
 def join_nested_strings(src)
   if src.map { |e|  } = Strings
-    src
+    nested_strings = []
+    nested_strings << src.join
   end
 
 
