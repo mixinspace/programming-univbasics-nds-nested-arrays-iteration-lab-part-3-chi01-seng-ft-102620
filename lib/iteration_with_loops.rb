@@ -1,6 +1,7 @@
 def join_nested_strings(src)
   if src = Strings
-    src
+    join_nested_strings
+  end
 
 
 
