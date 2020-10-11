@@ -1,5 +1,5 @@
 def join_nested_strings(src)
-  if src.map { |e|  } = ""
+  if src.map { |e|  } == ""
     nested_strings = []
     nested_strings << src.join
 
