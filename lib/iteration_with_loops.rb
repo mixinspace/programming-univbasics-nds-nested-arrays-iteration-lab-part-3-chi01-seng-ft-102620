@@ -1,6 +1,6 @@
 def join_nested_strings(src)
   sentence = src.map do |items|
-  items.select { |item| item.is_a?(String) }
+  items.class { |item| item.is_a?(String) }
 end.join(" ")
 
 sentence
