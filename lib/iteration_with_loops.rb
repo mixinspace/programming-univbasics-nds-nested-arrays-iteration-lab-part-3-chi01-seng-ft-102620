@@ -1,4 +1,5 @@
 def join_nested_strings(src)
+  data = src.map |a|
   a.select {|a| a.is_a?(String)}
 end.join(" ")
 
